@@ -1,7 +1,6 @@
 const apiRouter = require('express').Router();
 const fs = require('fs');
 const storedNotes = require('../db/db.json');
-const noteID = require('../helpers/noteID');
 let noteData = storedNotes;
 
 // GET route for retrieving all the notes
